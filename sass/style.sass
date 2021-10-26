@@ -1,0 +1,41 @@
+body
+    font-family: 'Roboto', sans-serif
+
+.btn
+    border: none
+    background-color: #E18259
+    color: #fff
+    border-radius: 10px
+    font-size: 20px
+    padding: 10px 20px
+    cursor: pointer
+    transition: all .3s
+    &:hover
+        background-color: #E18259 - #111
+
+.btn-cart
+    display: flex
+    align-items: center
+    margin-bottom: 22px
+
+    svg
+        margin-left: 5px
+
+.product-item
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    max-width: 170px
+    width: 100%
+    &:not(:last-child)
+        margin-bottom: 22px
+    &__img
+        width: 150px
+        height: 200px
+    h3
+        margin: 0
+        margin: 10px 0
+    p
+        margin: 0
+        margin-bottom: 10px
